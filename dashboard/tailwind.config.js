@@ -239,6 +239,11 @@ module.exports = {
       DEFAULT: '1'
     },
     fontFamily: {
+      regular: ['robotoRegular'],
+      medium: ['robotoMedium'],
+      bold: ['robotoBold'],
+      black: ['robotoBlack'],
+
       sans: [
         'ui-sans-serif',
         'system-ui',
