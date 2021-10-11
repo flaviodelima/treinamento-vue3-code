@@ -1,10 +1,14 @@
 const colors = require('tailwindcss/colors')
+const palette = require('./palette.js')
 
 module.exports = {
   purge: { content: ['./public/**/*.html', './src/**/*.vue'] },
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    extend: {
+      colors: palette
+    },
     screens: {
       sm: '640px',
       md: '768px',
